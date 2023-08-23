@@ -26,6 +26,8 @@ The script will then perform the following steps:
 - You need a valid API token for the Bard API to use this script. Make sure to replace `token = 'YOUR_BARD_API_TOKEN'` with your actual API token.
 - The generated summaries are based on the Bard API's responses and might vary in quality depending on the input text.
 - Ensure you have a stable internet connection while running the script since it relies on fetching data from YouTube and the Bard API.
+- For the installation of bard-api, prior to running the program, please follow the link above to the repo of bard-api and follow the methods mentioned there for proper installation
+- Also please update the token key for authentication of bard-api, by following the steps mentioned in the original repo
 
 ## Disclaimer
 
@@ -33,11 +35,6 @@ This script was created for educational and experimental purposes. The quality o
 
 ## Credits
 The bard-api used in the making of this project was made by @dsdanielpark (link to repo: https://github.com/DSDanielPark/BARD_API).
-
-## Important note
-- For the installation of bard-api, prior to running the program, please follow the link above to the repo of bard-api and follow the methods mentioned there for proper installation
-- Also please update the token key for authentication of bard-api, by following the steps mentioned in the original repo
-
 
 ## Current Status of the project
 - As of now the code isn't fully optimized. It takes a chunk of characters at a time and generates it's summary thereby intro and outro of bard is redundant.
