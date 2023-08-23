@@ -2,7 +2,7 @@ from bardapi import Bard
 from youtube_transcript_api import YouTubeTranscriptApi
 
 def summary(s1):
-    token = 'aAhCF360VQCcfJD2oHAlCZEB2Xa8ShFd1oTCx_O-PEtWzUXMScQPrtSirSLfsqr7N7aY4A.'
+    token = 'xxxxx'
     bard = Bard(token=token)
     return bard.get_answer(s1 + "\ncan you summarise this text for me in short?")['content']
 
