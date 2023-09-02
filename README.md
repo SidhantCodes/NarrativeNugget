@@ -1,4 +1,4 @@
-# NarrativeNugget
+# NarrativeNugget - Youtube Video Summary generator
  a simple python program that accepts youtube video link and generates its summary using BARD-API, working in terminal
 This script is designed to extract transcripts from a YouTube video and then generate summaries for the extracted text using the Bard API. The summaries are generated in chunks to accommodate longer videos. 
 
